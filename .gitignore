@@ -1,0 +1,43 @@
+
+# --- Your secrets file ---
+# This is the most important line in this file.
+# .env contains your API key. If this file ever reaches GitHub,
+# your key is exposed to the entire internet. This line prevents that.
+.env
+
+# --- Python virtual environment ---
+# uv creates a .venv folder with all installed packages.
+# These don't belong in Git — they're huge and can be recreated
+# with one command (uv sync). Never commit this folder.
+.venv/
+
+# --- Python bytecode ---
+# Python compiles your .py files into .pyc files for speed.
+# These are generated automatically and don't belong in Git.
+__pycache__/
+*.pyc
+*.pyo
+
+# --- uv cache ---
+# uv stores temporary files here. Not needed in the repo.
+.uv/
+
+# --- Jupyter Notebook checkpoints ---
+# Every time you run a notebook, Jupyter saves a checkpoint here.
+# These are temporary recovery files — not part of your project.
+.ipynb_checkpoints/
+
+# --- VS Code settings ---
+# Your personal VS Code config. Other developers have their own.
+# Generally fine to exclude.
+.vscode/
+
+# --- macOS system files ---
+# If you ever work on a Mac, this file appears everywhere.
+# Harmless but pointless in a repo.
+.DS_Store
+
+# --- Windows system files ---
+# Windows creates these in folders sometimes. Not project files.
+Thumbs.db
+desktop.ini

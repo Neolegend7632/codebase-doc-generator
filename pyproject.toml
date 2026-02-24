@@ -1,0 +1,30 @@
+[project]
+# The official name of the project
+name = "codebase-doc-generator"
+
+# Start at version 0.1.0 — this is standard for a new project
+# Increment this as you add features (0.2.0, 1.0.0, etc.)
+version = "0.1.0"
+
+# A short description — shows up on GitHub and PyPI if ever published
+description = "A multi-agent AI tool that automatically generates professional documentation for Python and JavaScript codebases."
+
+# Minimum Python version required to run this project
+requires-python = ">=3.13"
+
+# All packages this project needs to run
+# uv added these automatically when you ran "uv add ..."
+# Do not edit this list manually — always use "uv add <package>"
+dependencies = [
+    "openai-agents",      # Multi-agent orchestration framework
+    "openai",             # OpenAI SDK (used under the hood by agents)
+    "gradio",             # Web UI framework
+    "python-dotenv",      # Reads .env file and loads secrets
+]
+
+# =============================================================
+# uv configuration
+# =============================================================
+[tool.uv]
+# This section is managed by uv automatically.
+# You generally don't need to edit anything here.
