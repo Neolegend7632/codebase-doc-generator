@@ -132,4 +132,4 @@ with gr.Blocks(title="Codebase Doc Generator") as demo:
 # ── Launch ────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(inbrowser=True)
