@@ -1,6 +1,6 @@
 # 📄 Codebase Documentation Generator
 
-[![Live Demo](https://img.shields.io/badge/demo-Hugging%20Face%20Spaces-blue)](https://huggingface.co/spaces/Neolegend7632/codebase-doc-generator)
+[![Live Demo](https://img.shields.io/badge/demo-Hugging%20Face%20Spaces-blue)](https://huggingface.co/spaces/Neolegend/codebase-doc-generator)
 [![Python](https://img.shields.io/badge/python-3.13-green)]()
 [![Framework](https://img.shields.io/badge/framework-Gradio-orange)]()
 [![Agents](https://img.shields.io/badge/agents-openai--agents-purple)]()
