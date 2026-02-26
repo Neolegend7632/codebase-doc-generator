@@ -1,0 +1,2 @@
+# What __init__.py is and why it matters:
+# Python treats a folder as a package — something you can import from — only when it contains a file called __init__.py. Without it, the folder is just a folder. With it, Python allows from app.agents import stream_pipeline to work correctly. The file can be completely empty. Its presence is the signal Python needs.
